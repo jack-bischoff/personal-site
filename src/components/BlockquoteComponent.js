@@ -10,7 +10,7 @@ class BlockquoteComponent extends React.Component {
         <div className="uk-section uk-section-medium uk-section-default">
           <div className="uk-container uk-text-center">
               <blockquote cite="">
-                  <p class="uk-margin-small-bottom">"Do it"</p>
+                  <p className="uk-margin-small-bottom">"Do it"</p>
                   <footer>Sheev Palpatine</footer>
               </blockquote>
           </div>
