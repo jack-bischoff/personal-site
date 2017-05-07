@@ -4,11 +4,17 @@ import React from 'react';
 
 require('styles//Masthead.css');
 
+let mastheadBackground = require('../images/MastheadBackground.jpg');
+
+const mastheadBackgroundStyle = {
+    backgroundImage: 'url(' + mastheadBackground + ')',
+};
+
 class MastheadComponent extends React.Component {
   render() {
     return (
-      <div className="masthead-component">
-        Please edit src/components///MastheadComponent.js to update this component!
+      <div className="uk-section uk-section-large uk-section-media uk-light uk-background-cover uk-text-center" style={mastheadBackgroundStyle}>
+        <h1 className="uk-heading-hero light-weight">Jack Bischoff</h1>
       </div>
     );
   }
