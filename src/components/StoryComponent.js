@@ -7,8 +7,10 @@ require('styles//Story.css');
 class StoryComponent extends React.Component {
   render() {
     return (
-      <div className="story-component">
-        <h1> My Story</h1>
+      <div className= "story uk-section uk-section-medium uk-section-muted">
+        <div className="uk-container">
+          <h1 className= "uk-margin-large-left">My Story</h1>
+        </div>
       </div>
     );
   }
