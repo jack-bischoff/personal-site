@@ -30,6 +30,8 @@ class FooterComponent extends React.Component {
                   </ul>
               </div>
             </div>
+            <hr />
+            <p className="uk-text-meta">Masthead image by: Nina Geometrieva</p>
           </div>
         </div>
     );
