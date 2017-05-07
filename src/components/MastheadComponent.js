@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-require('styles//Masthead.css');
+require('styles/Masthead.css');
 
 class MastheadComponent extends React.Component {
   render() {
