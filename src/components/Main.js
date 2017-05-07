@@ -6,12 +6,14 @@ import Story from './StoryComponent'
 import Masthead from './MastheadComponent';
 import Footer from './FooterComponent';
 import Actions from './ActionsComponent';
+import Bio from './BioComponent';
 
 class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
         <Masthead />
+        <Bio />
         <Actions />
         <Story />
         <Footer />
