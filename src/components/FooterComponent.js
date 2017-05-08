@@ -24,14 +24,18 @@ class FooterComponent extends React.Component {
                   </ul>
               </div>
               <div>
-                  <h3>Academic Writing</h3>
+                  <h3>Other</h3>
                   <ul className="uk-list">
                       <li><a className="uk-button uk-button-text uk-text-capitalize" href=""><span data-uk-icon="icon: file-edit"></span> Papers</a></li>
+                      <li><a className="uk-button uk-button-text uk-text-capitalize" href=""><span data-uk-icon="icon: github-alt"></span> Decipher Technology Studios</a></li>
                   </ul>
               </div>
             </div>
             <hr />
-            <p className="uk-text-meta">Masthead image by: Nina Geometrieva</p>
+            <div>
+                <p className="uk-float-left uk-text-meta"><a className="uk-link-muted" href="https://dribbble.com/ni">Masthead image by: Nina Geometrieva</a></p>
+                <p className="uk-float-right uk-text-meta uk-margin-remove-top"><a className="uk-link-muted" href="https://github.com/alecholmez">Co-Website-Designer: Alec Holmes</a></p>
+            </div>
           </div>
         </div>
     );
