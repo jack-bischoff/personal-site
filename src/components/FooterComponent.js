@@ -21,6 +21,7 @@ class FooterComponent extends React.Component {
                   <h3>Social Media</h3>
                   <ul className="uk-list">
                       <li><a className="uk-button uk-button-text uk-text-capitalize" href="https://twitter.com/Mr_Foots"><span data-uk-icon="icon: twitter"></span> Twitter</a></li>
+                      <li><a className="uk-button uk-button-text uk-text-capitalize" href="http://stackoverflow.com/users/3529271/mr-foots"><span data-uk-icon="icon: code"></span> StackOverflow</a></li>
                   </ul>
               </div>
               <div>
@@ -34,7 +35,7 @@ class FooterComponent extends React.Component {
             <hr />
             <div>
                 <p className="uk-float-left uk-text-meta"><a className="uk-link-muted" href="https://dribbble.com/ni">Masthead image by: Nina Geometrieva</a></p>
-                <p className="uk-float-right uk-text-meta uk-margin-remove-top"><a className="uk-link-muted" href="https://github.com/alecholmez">Co-Website-Designer: Alec Holmes</a></p>
+                <p className="uk-float-right uk-text-meta uk-margin-remove-top"><a className="uk-link-muted" href="https://github.com/alecholmez">Fuck you Alec Holmes</a></p>
             </div>
           </div>
         </div>

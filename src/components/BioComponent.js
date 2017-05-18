@@ -3,7 +3,11 @@
 import React from 'react';
 
 require('styles//Bio.css');
-let image = '../images/jack.jpg'
+let personalImage = require('../images/jack.jpg');
+
+const mastheadBackgroundStyle = {
+    backgroundImage: 'url(' + personalImage + ')'
+};
 
 class BioComponent extends React.Component {
   render() {
