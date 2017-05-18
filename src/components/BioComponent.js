@@ -17,7 +17,7 @@ class BioComponent extends React.Component {
           <div className="uk-flex-center uk-grid-large" data-uk-grid>
             <div>
                 <div>
-                    <img className="circle" width="200" height="200" src={image} alt="Send Nudes"/>
+                    <img className="circle" width="200" height="200" src={personalImage} alt="Send Nudes"/>
                 </div>
             </div>
             <div>
