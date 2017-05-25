@@ -11,7 +11,7 @@ class StoryComponent extends React.Component {
         <div className="uk-container">
           <h1 className= "uk-margin-large-left">Who Am I?</h1>
           <p className="uk-margin-large-left uk-margin-large-right">
-              I am a poor man who doesn't make anything worth while. I hate my life, school sucks, and I like to play video games all day whilst my colleages do everything for me. If you are looking for someone to actually build you something, refer to my friend who helped build this website. Info is in the footer.
+              That's a great question. And a question which will be answered after I play video games... or something...
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import React from 'react';
 
 require('styles//Skills.css');
 
-class SkillsComponent extends React.Component {
+export default class SkillsComponent extends React.Component {
   render() {
     return (
         <div className= "uk-section uk-section-medium uk-section-muted">
@@ -13,7 +13,19 @@ class SkillsComponent extends React.Component {
                 <div className="uk-width-2-3">
                     <h2 className="uk-text-center">Work Experience</h2>
                     <div>
-                        <p className="uk-text-break">I do random crap that doesn't help anyone or anything because I am useless.</p>
+                        <p className="uk-text-break">
+                            I have been working for <a href="http://deciphernow.com" rel="noopener noreferrer" target="_blank">Decipher Technology Studios</a> as a Software Developer
+                            for a year. Throughout the year I have been primarily a web developer dealing with ReactJS (read as: headaches) 
+                            and Redux for front-end coding. Designer, I am not, but I can skate by with uikit (used in this website).
+                            Some of my work related projects include: 
+                            <ul>
+                                <li>designing and building a health-check web service for our clients and internal
+                                    usage;</li> 
+                                <li>designing and building a data aggregation and display app featuring a custom mapping solution;</li>
+                                <li>and finally building data-heavy pages for a government related web app requiring extensive 
+                                    usage of pre-exisiting APIs.</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
                 <div className="uk-width-1-3">
@@ -21,20 +33,11 @@ class SkillsComponent extends React.Component {
                     <div className="uk-grid-divider uk-child-width-1-2" data-uk-grid>
                         <div>
                             <ul className="uk-list uk-list-bullet uk-float-left uk-margin-remove-top">
-                                <li>Machine Learning</li>
                                 <li>React.JS</li>
                                 <li>Redux</li>
                                 <li>Golang</li>
                                 <li>Python</li>
                                 <li>UI/UX</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul className="uk-list uk-list-bullet uk-float-left uk-margin-remove-top">
-                                <li>Mathematics</li>
-                                <li>Logic</li>
-                                <li>Analytics</li>
-                                <li>Tensorflow</li>
                             </ul>
                         </div>
                     </div>
@@ -48,8 +51,3 @@ class SkillsComponent extends React.Component {
 
 SkillsComponent.displayName = 'SkillsComponent';
 
-// Uncomment properties you need
-// SkillsComponent.propTypes = {};
-// SkillsComponent.defaultProps = {};
-
-export default SkillsComponent;

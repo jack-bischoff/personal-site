@@ -2,23 +2,17 @@
 
 import React from 'react';
 
-require('styles//Bio.css');
-let personalImage = require('../images/jack.jpg');
+require('styles/Bio.css');
+const personal = require('../images/jack2.jpg');
 
-const mastheadBackgroundStyle = {
-    backgroundImage: 'url(' + personalImage + ')'
-};
-
-class BioComponent extends React.Component {
+export default class BioComponent extends React.Component {
   render() {
     return (
       <div className= "uk-section uk-section-xsmall uk-section-muted">
         <div className= "container">
           <div className="uk-flex-center uk-grid-large" data-uk-grid>
             <div>
-                <div>
-                    <img className="circle" width="200" height="200" src={personalImage} alt="Send Nudes"/>
-                </div>
+                <img className="circle" width="200" height="200" src={personal} alt=""/>
             </div>
             <div>
                 <div className="uk-margin-large-top">
@@ -41,9 +35,3 @@ class BioComponent extends React.Component {
 }
 
 BioComponent.displayName = 'BioComponent';
-
-// Uncomment properties you need
-// BioComponent.propTypes = {};
-// BioComponent.defaultProps = {};
-
-export default BioComponent;

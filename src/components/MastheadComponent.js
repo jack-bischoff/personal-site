@@ -23,8 +23,4 @@ class MastheadComponent extends React.Component {
 
 MastheadComponent.displayName = 'MastheadComponent';
 
-// Uncomment properties you need
-// MastheadComponent.propTypes = {};
-// MastheadComponent.defaultProps = {};
-
 export default MastheadComponent;
