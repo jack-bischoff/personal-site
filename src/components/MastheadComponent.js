@@ -14,7 +14,7 @@ const mastheadBackgroundStyle = {
 class MastheadComponent extends React.Component {
   render() {
     return (
-      <div className="uk-section uk-section-xlarge uk-section-media uk-light uk-background-cover uk-text-center" style={mastheadBackgroundStyle}>
+      <div className="uk-section uk-section-xlarge uk-section-media uk-light uk-background-cover uk-text-center" style={mastheadBackgroundStyle} data-uk-parallax="bgy: -200">
         <h1 className="uk-heading-hero light-weight">Jack Bischoff</h1>
       </div>
     );
