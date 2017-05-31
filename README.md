@@ -10,7 +10,7 @@ npm start
 ```
 The app will start a webserver at
 ```
-localhost:8080
+localhost:8000
 ```
 
 ## Contributing
