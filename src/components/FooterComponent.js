@@ -28,7 +28,7 @@ class FooterComponent extends React.Component {
                   <h3>Other</h3>
                   <ul className="uk-list">
                       <li><a className="uk-button uk-button-text uk-text-capitalize" href=""><span data-uk-icon="icon: file-edit"></span> Papers</a></li>
-                      <li><a className="uk-button uk-button-text uk-text-capitalize" href=""><span data-uk-icon="icon: github-alt"></span> Decipher Technology Studios</a></li>
+                      <li><a className="uk-button uk-button-text uk-text-capitalize" href="http://deciphernow.com"><span data-uk-icon="icon: github-alt"></span> Decipher Technology Studios</a></li>
                   </ul>
               </div>
             </div>
