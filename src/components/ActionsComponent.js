@@ -10,8 +10,8 @@ class ActionsComponent extends React.Component {
       <div className="uk-section uk-section-medium uk-section-default">
         <div className="uk-container uk-text-center">
             <blockquote cite="">
-                <p className="uk-margin-small-bottom">"Dude, do me a solid... and swap those droids"</p>
-                <footer>Rian Johnson</footer>
+                <p className="uk-margin-small-bottom">"When you press the pause button on a machine, it stops. But when you press the pause button on human beings they start."</p>
+                <footer>Dov Seidman</footer>
             </blockquote>
         </div>
       </div>

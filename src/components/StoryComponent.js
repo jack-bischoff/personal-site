@@ -11,7 +11,11 @@ class StoryComponent extends React.Component {
         <div className="uk-container">
           <h1 className= "uk-margin-large-left">Who Am I?</h1>
           <p className="uk-margin-large-left uk-margin-large-right">
-              That's a great question. And a question which will be answered after I play video games... or something...
+          I'm a deep thinker. <br></br>
+          A wild dreamer.  <br></br>
+          I'm <a href="https://www.lp.org/">Libertarian</a>, because I believe in <strong>Liberty for everyone</strong>. <br></br>
+          I code. I write. I drink (unhealthly amounts of coffee). <br></br>
+          Dogs or Cats? Dogs, <strong>duh</strong>. <br></br>
           </p>
         </div>
       </div>
