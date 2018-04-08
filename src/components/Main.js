@@ -8,7 +8,7 @@ import Quote from './Quote';
 import Bio from './Bio';
 import Work from './Work';
 
-class AppComponent extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className="index uk-background-muted">
@@ -31,8 +31,3 @@ class AppComponent extends React.Component {
     );
   }
 }
-
-AppComponent.defaultProps = {
-};
-
-export default AppComponent;
