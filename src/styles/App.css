@@ -15,14 +15,50 @@
   border-width: 1px 0;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+
+body, h2, h3, h4, h5, h6, .raleway-font {
     font-family: 'Raleway', 'sans-serif' !important;
 }
 
-.footer-coloring {
-    background-color: #a2d4ab;
+a, .accent-text1 {
+  color: #ffcc00 !important;
 }
 
-.work-coloring {
-  /* background-color: #a2b4ab; */
+.accent-text2 {
+  color: rgb(255,82,82);
+}
+.arvo-font {
+  .font-family: 'Arvo', serif !important;
+}
+.limelight-font {
+  font-family: 'Limelight', cursive !important;
+}
+
+.oswald-font {
+  font-family: 'Oswald', sans-serif !important;
+}
+.shrikhand-font {
+  font-family: 'Shrikhand',  cursive !important;
+}
+
+.montserrat-font {
+  font-family: 'Montserrat' !important;
+  color: black;
+}
+
+.bitter-font {
+  font-family: 'Bitter', serif !important;
+}
+
+.font-larger {
+  font-size: 144px
+}
+
+.footer-coloring {
+    /* background-color: #a2d4ab; */
+    background-color: black;
+}
+
+.white-font {
+  color: white ;
 }
