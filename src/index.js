@@ -5,7 +5,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import App from './components/Main';
+import Home from './pages/Personal/Home';
+import Innovation from './pages/Innovation/Main';
 
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
@@ -17,7 +18,8 @@ UIkit.use(Icons);
 ReactDOM.render(
   <BrowserRouter>
     <div>
-      <Route exact path="/" component={App} />
+      <Route exact path="/" component={Home} />
+      <Route path="/innovation-adventure" component={Innovation} />
     </div>
   </BrowserRouter>,
   document.getElementById('app')

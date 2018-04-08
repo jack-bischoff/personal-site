@@ -3,7 +3,6 @@
 import React from 'react';
 
 require('styles//Skills.css');
-const p = require('../images/office-photo.jpg');
 
 export default class Work extends React.Component {
   render() {

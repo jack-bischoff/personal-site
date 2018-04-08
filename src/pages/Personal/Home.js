@@ -8,7 +8,7 @@ import Quote from './Quote';
 import Bio from './Bio';
 import Work from './Work';
 
-export default class App extends React.Component {
+export default class Home extends React.Component {
   render() {
     return (
       <div className="index uk-background-muted">

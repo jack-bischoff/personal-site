@@ -3,7 +3,7 @@
 import React from 'react';
 
 require('styles/Bio.css');
-const personal = require('../images/jack2.jpg');
+const personal = require('../../images/jack2.jpg');
 
 export default class Bio extends React.Component {
   render() {
