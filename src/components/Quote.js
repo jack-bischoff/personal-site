@@ -4,14 +4,14 @@ import React from 'react';
 
 require('styles//Blockquote.css');
 
-class BlockquoteComponent extends React.Component {
+export default class Quote extends React.Component {
   render() {
     return (
-        <div className="uk-section uk-section-medium uk-section-default">
+        <div className="uk-section uk-section-medium raleway-font">
           <div className="uk-container uk-text-center">
               <blockquote cite="">
-                  <p className="uk-margin-small-bottom">"Do it"</p>
-                  <footer>Sheev Palpatine</footer>
+                  <p className="uk-margin-small-bottom">{this.props.quote}</p>
+                  <footer>{this.props.by}</footer>
               </blockquote>
           </div>
         </div>
@@ -19,10 +19,7 @@ class BlockquoteComponent extends React.Component {
   }
 }
 
-BlockquoteComponent.displayName = 'BlockquoteComponent';
 
 // Uncomment properties you need
 // BlockquoteComponent.propTypes = {};
 // BlockquoteComponent.defaultProps = {};
-
-export default BlockquoteComponent;

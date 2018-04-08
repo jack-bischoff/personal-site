@@ -2,27 +2,30 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import Story from './StoryComponent'
-import Masthead from './MastheadComponent';
-import Heading from './HeadingComponent'
-import Footer from './FooterComponent';
-import Actions from './ActionsComponent';
-import Bio from './BioComponent';
-import Doit from './BlockquoteComponent';
-import Skills from './SkillsComponent';
+import Header from './Header'
+import Footer from './Footer';
+import Quote from './Quote';
+import Bio from './Bio';
+import Work from './Work';
 
 class AppComponent extends React.Component {
   render() {
     return (
-      <div className="index">
-        <Heading />
+      <div className="index uk-background-muted">
+        <Header />
         <Bio />
-        <Actions />
+        <Quote
+          quote={'When you press the pause button on a machine, it stops. But when you press the pause button on human beings they start.'}
+          by={'Dov Seidman'}
+        />
         <div className="uk-container">
           <hr />
         </div>
-        <Skills />
-        <Doit />
+        <Work />
+        <Quote
+          quote={'Do it.'}
+          by={'Sheev Palpatine'}
+        />
         <Footer />
       </div>
     );
