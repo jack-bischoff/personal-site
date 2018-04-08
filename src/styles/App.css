@@ -18,18 +18,25 @@
 
 body, h2, h3, h4, h5, h6, .raleway-font {
     font-family: 'Raleway', 'sans-serif' !important;
+    background-color: white;
 }
 
-a, .accent-text1 {
-  color: #ffcc00 !important;
+a {
+  color: #086788 !important;
+}
+
+.accent-text1 {
+  color: #aa962f !important;
+}
+
+.header-text a {
+  color: #aa962f !important;
 }
 
 .accent-text2 {
   color: rgb(255,82,82);
 }
-.arvo-font {
-  .font-family: 'Arvo', serif !important;
-}
+
 .limelight-font {
   font-family: 'Limelight', cursive !important;
 }
@@ -37,21 +44,14 @@ a, .accent-text1 {
 .oswald-font {
   font-family: 'Oswald', sans-serif !important;
 }
-.shrikhand-font {
-  font-family: 'Shrikhand',  cursive !important;
-}
 
 .montserrat-font {
   font-family: 'Montserrat' !important;
   color: black;
 }
 
-.bitter-font {
-  font-family: 'Bitter', serif !important;
-}
-
 .font-larger {
-  font-size: 144px
+  font-size: 154px;
 }
 
 .footer-coloring {

@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-require('styles//Footer.css');
+// require('styles//Footer.css');
 
 export default class Footer extends React.Component {
   render() {

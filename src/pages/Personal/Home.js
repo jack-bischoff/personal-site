@@ -11,8 +11,9 @@ import Work from './Work';
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="index uk-background-muted">
+      <div className="index">
         <Header />
+        <hr />
         <Bio />
         <Quote
           quote={'When you press the pause button on a machine, it stops. But when you press the pause button on human beings they start.'}

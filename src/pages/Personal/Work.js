@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-require('styles//Skills.css');
+// require('styles//Skills.css');
 
 export default class Work extends React.Component {
   render() {
@@ -22,12 +22,13 @@ export default class Work extends React.Component {
                       Hit me up if you want a React app loaded into an Angular app bootstrapped to another app through JQuery (You guessed it, Government app).
                       Some of my work related projects include:
                       <ul>
-                          <li>designing and building a health-check web service for our clients and internal
+                          <li>a health-check web microservice and dashboard for our clients and internal
                               usage;</li>
-                          <li>designing and building a data aggregation and display app featuring a custom mapping solution;</li>
+                          <li>multiple web apps utlitizing heavy data-focused dashboards and aggregations;</li>
+                          <li>a modern web app scaffolding tool and code generators for rapid project development</li>
                           <li>rapidly resolving mission-critical UI/UX bugs which demand process overhaul;</li>
-                          <li>and finally building data-heavy pages for a government related web app requiring extensive
-                              usage of pre-exisiting APIs.</li>
+                          <li>multiple sections for a government related web apps requiring extensive
+                              usage of internal and external APIs.</li>
                       </ul>
                     </p>
                     </div>

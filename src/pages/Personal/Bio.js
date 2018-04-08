@@ -26,7 +26,7 @@ export default class Bio extends React.Component {
                 </ul>
             </div>
             <div className="uk-container uk-margin-large-top">
-              <p className="uk-margin-large-left uk-margin-large-right montserrat-font">
+              <p className="uk-margin-large-left uk-margin-large-right raleway-font">
                 I'm a deep thinker. <br></br>
                 A wild dreamer.  <br></br>
                 Insistent Innovator. <br></br>
