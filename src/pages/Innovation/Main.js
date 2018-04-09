@@ -85,8 +85,8 @@ export default class Main extends React.Component {
         </div>
 
           <div id="innovation" className = "uk-section uk-section-large uk-section-default">
-              <div className="uk-container">
-                    <div className="uk-text-center uk-child-width-expand" data-uk-grid>
+              <div className="uk-container uk-container-large">
+                    <div className="uk-text-center uk-child-width-expand uk-grid-large" data-uk-grid>
                         <div>
                             <div className="crop img-1 uk-background-cover uk-background-center-center">
                             </div>

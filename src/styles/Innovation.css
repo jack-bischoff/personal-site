@@ -43,7 +43,7 @@ h4, h5, h6 {
 }
 
 .crop {
-    width: 350px;
+    width: 100%;
     height: 350px;
     margin: 0 auto;
     border-radius: 5px;
