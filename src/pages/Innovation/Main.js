@@ -99,7 +99,7 @@ export default class Main extends React.Component {
                             </div>
                             <h4>Innovation</h4>
                             <hr />
-                            <p>Cutting-edge technology used to push the boundaries of what we though possible.</p>
+                            <p>Cutting-edge technology used to push the boundaries of what we thought possible.</p>
                         </div>
                         <div>
                             <div className="crop img-3 uk-background-cover uk-background-center-center"></div>
@@ -127,6 +127,85 @@ export default class Main extends React.Component {
                           </div>
                       </div>
                   </div>
+              </div>
+            </div>
+
+            <div className="uk-section uk-section-large uk-section-muted">
+                <div className="uk-container">
+                  <div className="uk-text-center uk-child-width-expand" data-uk-grid>
+                      <div>
+                          <h2>Hello World!</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div>
+                          <h2>Hello World!</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div className = "uk-section uk-section-medium uk-section-default">
+              <div className="uk-container">
+                  <div className="uk-text-center" data-uk-grid>
+                      <div className="uk-width-1-2">
+                          <div className="crop-large img-2 uk-background-cover uk-background-center-center"></div>
+                      </div>
+                      <div className="uk-width-1-4 uk-margin-auto uk-margin-auto-vertical">
+                          <h4>Precision</h4>
+                          <hr />
+                          <p>Breakthrough manufacturing techniques to craft a brilliant vehicle with never-before-seen accuracy.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <div className="uk-container">
+                <hr />
+            </div>
+
+            <div className = "uk-section uk-section-medium uk-section-default">
+              <div className="uk-container">
+                <div className="uk-text-center" data-uk-grid>
+                    <div className="uk-width-1-4 uk-margin-auto uk-margin-auto-vertical">
+                        <h4>Beauty</h4>
+                        <hr />
+                        <p>Simple design to pave way for the appreciative driver and driving experience.</p>
+                    </div>
+                    <div className="uk-width-1-2">
+                        <div className="crop-large img-3 uk-background-cover uk-background-center-center"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="footer" className="uk-section uk-section-muted">
+              <div className="uk-container">
+                <div className="uk-flex-center uk-text-center uk-child-width-1-3 uk-grid-large" data-uk-grid>
+                  <div>
+                      <h3 className="">Code</h3>
+                      <ul className="uk-list">
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href="https://github.com/jack-bischoff"><span data-uk-icon="icon: github"></span> My Github</a></li>
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href="https://getuikit.com"><span data-uk-icon="icon: uikit"></span> Built With UIKit</a></li>
+                      </ul>
+                  </div>
+                  <div>
+                      <h3 className="">Social Media</h3>
+                      <ul className="uk-list">
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href="https://www.linkedin.com/in/jack-bischoff-227953159"><span data-uk-icon="icon: linkedin"></span> LinkedIn</a></li>
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href="https://twitter.com/Mr_Foots"><span data-uk-icon="icon: twitter"></span> Twitter</a></li>
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href="http://stackoverflow.com/users/3529271/mr-foots"><span data-uk-icon="icon: code"></span> StackOverflow</a></li>
+                      </ul>
+                  </div>
+                  <div>
+                      <h3 className="">Other</h3>
+                      <ul className="uk-list">
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href=""><span data-uk-icon="icon: file-edit"></span> Checkout my writing!</a></li>
+                          <li><a className="uk-button uk-button-text uk-text-capitalize" href="http://deciphernow.com"><span data-uk-icon="icon: github-alt"></span> Decipher Technology Studios</a></li>
+                          <li><a className="uk-text-small uk-link-muted" href="https://github.com/alecholmez">Peep Alec Holmes</a></li>
+                      </ul>
+                  </div>
+                </div>
               </div>
             </div>
       </div>
