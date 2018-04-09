@@ -16,7 +16,7 @@ export default class Main extends React.Component {
             <nav className="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
                 <div className="uk-navbar-left">
                     <ul className="uk-navbar-nav">
-                        <li className="uk-active"><a href=""><span data-uk-icon="icon: world"></span></a></li>
+                        <li className="uk-active"><a href="#begin" data-uk-scroll><span data-uk-icon="icon: world"></span></a></li>
                     </ul>
                 </div>
                 <div className="uk-navbar-right">
@@ -29,7 +29,7 @@ export default class Main extends React.Component {
             </nav>
         </div>
 
-        <div className="uk-section" data-uk-height-viewport>
+        <div id="begin" className="uk-section" data-uk-height-viewport>
           <div className="uk-container">
               <div className="uk-flex uk-flex-middle">
                   <div className="uk-container">
