@@ -13,6 +13,10 @@ h1, h2, h3 {
     font-weight: 900 !important;
 }
 
+h4, h5, h6 {
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+}
+
 .uk-button {
     border-radius: 5px !important;
 }
@@ -62,4 +66,12 @@ h1, h2, h3 {
 
 .img-3 {
     background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-1920x1080-Nissan-Datsun-240Z-Background-PIC-WPD005314.jpg");
+}
+
+.img-4 {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Nissan-Datsun-HD-240Z-Wallpaper.jpg");
+}
+
+.img-5 {
+    background-image: url("http://getwallpapers.com/wallpaper/full/9/c/5/620435.jpg");
 }

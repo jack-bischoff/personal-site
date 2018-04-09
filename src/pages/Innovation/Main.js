@@ -22,8 +22,8 @@ export default class Main extends React.Component {
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav">
                         <li><a href="#design" data-uk-scroll>Design</a></li>
-                        <li><a href="#performance" data-uk-scroll>Performance</a></li>
                         <li><a href="#innovation" data-uk-scroll>Innovation</a></li>
+                        <li><a href="#performance" data-uk-scroll>Performance</a></li>
                     </ul>
                 </div>
             </nav>
@@ -84,7 +84,7 @@ export default class Main extends React.Component {
           </div>
         </div>
 
-          <div id="performance" className = "uk-section uk-section-large uk-section-default">
+          <div id="innovation" className = "uk-section uk-section-large uk-section-default">
               <div className="uk-container">
                     <div className="uk-text-center uk-child-width-expand" data-uk-grid>
                         <div>
@@ -117,8 +117,8 @@ export default class Main extends React.Component {
                       <div className="uk-grid-small uk-text-center uk-child-width-1-3@s" data-uk-grid>
                           <div>
                               <div className="uk-panel uk-dark uk-background-default uk-padding">
-                                  <h2>Design Speaks To Those Who Recognize Its Beauty</h2>
-                                  <p>Nissan didn't just build a sports car, they built a work of art for the driver who is willing to embrace and become one with the machine. At its very essence, the 240z embodies the drivers spirit.</p>
+                                  <h2>Performance Without a Cost</h2>
+                                  <p>When it comes to shortcuts, we didn't take any. We made no compromises and put performace at the forefront of our design efforts and boy does it show.</p>
                               </div>
                           </div>
                           <div></div>
@@ -143,15 +143,15 @@ export default class Main extends React.Component {
                 </div>
             </div>
 
-            <div id="innovation" className = "uk-section uk-section-medium uk-section-default">
+            <div id="performance" className = "uk-section uk-section-medium uk-section-default">
               <div className="uk-container">
                   <div className="uk-text-center" data-uk-grid>
                       <div className="uk-width-1-2">
-                          <div className="crop-large img-2 uk-background-cover uk-background-center-center"></div>
+                          <div className="crop-large img-4 uk-background-cover uk-background-center-center"></div>
                       </div>
                       <div className="uk-width-1-4 uk-margin-auto uk-margin-auto-vertical">
-                          <h2>Precision</h2>
-                          <p>Breakthrough manufacturing techniques to craft a brilliant vehicle with never-before-seen accuracy.</p>
+                          <h2>Groundbreaking Suspension</h2>
+                          <p>Whether you're tearing up the tarmac at your local race course, or cruising through the mountains on a sunny summers day, your suspension can be customed tuned for each scenarion for maximum perfomance benefits.</p>
                       </div>
                   </div>
               </div>
@@ -165,11 +165,11 @@ export default class Main extends React.Component {
               <div className="uk-container">
                 <div className="uk-text-center" data-uk-grid>
                     <div className="uk-width-1-4 uk-margin-auto uk-margin-auto-vertical">
-                        <h2>Beauty</h2>
-                        <p>Simple design to pave way for the appreciative driver and driving experience.</p>
+                        <h2>Legendary Motor</h2>
+                        <p>Each Datsun comes with a hand-built S30 motor imported from Japan. These motors have one of the greatest soundtracks a car can produce, and output around 300hp for lightning fast performance.</p>
                     </div>
                     <div className="uk-width-1-2">
-                        <div className="crop-large img-3 uk-background-cover uk-background-center-center"></div>
+                        <div className="crop-large img-5 uk-background-cover uk-background-center-center"></div>
                     </div>
                 </div>
               </div>
