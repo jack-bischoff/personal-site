@@ -152,8 +152,7 @@ export default class Main extends React.Component {
                           <div className="crop-large img-2 uk-background-cover uk-background-center-center"></div>
                       </div>
                       <div className="uk-width-1-4 uk-margin-auto uk-margin-auto-vertical">
-                          <h4>Precision</h4>
-                          <hr />
+                          <h2>Precision</h2>
                           <p>Breakthrough manufacturing techniques to craft a brilliant vehicle with never-before-seen accuracy.</p>
                       </div>
                   </div>
@@ -168,8 +167,7 @@ export default class Main extends React.Component {
               <div className="uk-container">
                 <div className="uk-text-center" data-uk-grid>
                     <div className="uk-width-1-4 uk-margin-auto uk-margin-auto-vertical">
-                        <h4>Beauty</h4>
-                        <hr />
+                        <h2>Beauty</h2>
                         <p>Simple design to pave way for the appreciative driver and driving experience.</p>
                     </div>
                     <div className="uk-width-1-2">
