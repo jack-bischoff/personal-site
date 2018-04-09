@@ -66,7 +66,7 @@ export default class Main extends React.Component {
         </div>
 
         <div id="design" className="uk-section-default">
-          <div className = "uk-section uk-section-xlarge uk-background-cover first-cover">
+          <div className="uk-section uk-section-xlarge uk-background-cover first-cover" data-uk-parallax="bgy: -50">
             <div className="uk-container">
                   <div className="uk-grid-small uk-text-center uk-child-width-1-3@s" data-uk-grid>
                       <div>
@@ -74,7 +74,7 @@ export default class Main extends React.Component {
                       <div>
                       </div>
                       <div>
-                          <div className="uk-panel uk-dark uk-background-default uk-padding-large">
+                          <div className="uk-panel uk-dark uk-background-default uk-padding-large" data-uk-parallax="y: -100">
                               <h2>Design Speaks To Those Who Recognize Its Beauty</h2>
                               <p>Nissan didn't just build a sports car, they built a work of art for the driver who is willing to embrace and become one with the machine. At its very essence, the 240z embodies the drivers spirit.</p>
                           </div>
@@ -112,11 +112,11 @@ export default class Main extends React.Component {
             </div>
 
             <div className="uk-section-default">
-              <div className = "uk-section uk-section-xlarge uk-background-cover second-cover">
+              <div className = "uk-section uk-section-xlarge uk-background-cover second-cover" data-uk-parallax="bgy: -50">
                 <div className="uk-container">
                       <div className="uk-grid-small uk-text-center uk-child-width-1-3@s" data-uk-grid>
                           <div>
-                              <div className="uk-panel uk-dark uk-background-default uk-padding-large">
+                              <div className="uk-panel uk-dark uk-background-default uk-padding-large" data-uk-parallax="y: -100">
                                   <h2>Performance Without Comprosmise</h2>
                                   <p>When it comes to shortcuts, we didn't take any. We made no compromises and put performace at the forefront of our design efforts and boy does it show.</p>
                               </div>
