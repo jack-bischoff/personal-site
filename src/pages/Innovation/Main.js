@@ -21,9 +21,9 @@ export default class Main extends React.Component {
                 </div>
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav">
-                        <li><a href="">Design</a></li>
-                        <li><a href="">Performance</a></li>
-                        <li><a href="">Innovation</a></li>
+                        <li><a href="#design" data-uk-scroll>Design</a></li>
+                        <li><a href="#performance" data-uk-scroll>Performance</a></li>
+                        <li><a href="#innovation" data-uk-scroll>Innovation</a></li>
                     </ul>
                 </div>
             </nav>
@@ -65,7 +65,7 @@ export default class Main extends React.Component {
             </div>
         </div>
 
-        <div className="uk-section-default">
+        <div id="design" className="uk-section-default">
           <div className = "uk-section uk-section-xlarge uk-background-cover first-cover">
             <div className="uk-container">
                   <div className="uk-grid-small uk-text-center uk-child-width-1-3@s" data-uk-grid>
@@ -84,7 +84,7 @@ export default class Main extends React.Component {
           </div>
         </div>
 
-          <div className = "uk-section uk-section-large uk-section-default">
+          <div id="performance" className = "uk-section uk-section-large uk-section-default">
               <div className="uk-container">
                     <div className="uk-text-center uk-child-width-expand" data-uk-grid>
                         <div>
@@ -121,10 +121,8 @@ export default class Main extends React.Component {
                                   <p>Nissan didn't just build a sports car, they built a work of art for the driver who is willing to embrace and become one with the machine. At its very essence, the 240z embodies the drivers spirit.</p>
                               </div>
                           </div>
-                          <div>
-                          </div>
-                          <div>
-                          </div>
+                          <div></div>
+                          <div></div>
                       </div>
                   </div>
               </div>
@@ -145,7 +143,7 @@ export default class Main extends React.Component {
                 </div>
             </div>
 
-            <div className = "uk-section uk-section-medium uk-section-default">
+            <div id="innovation" className = "uk-section uk-section-medium uk-section-default">
               <div className="uk-container">
                   <div className="uk-text-center" data-uk-grid>
                       <div className="uk-width-1-2">
