@@ -92,7 +92,7 @@ export default class Main extends React.Component {
                             </div>
                             <h4>Beauty</h4>
                             <hr />
-                            <p>Simple design to pave way for the appreciative driver and driving experience.</p>
+                            <p>Elegant design to pave way for the appreciative driver and ultimate driving experience.</p>
                         </div>
                         <div>
                             <div className="crop img-2 uk-background-cover uk-background-center-center">
