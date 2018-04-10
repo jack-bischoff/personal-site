@@ -1,0 +1,65 @@
+/*  Main Color: #9b59b6 */
+
+.innovation-fonts {
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+}
+
+p {
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+    font-weight: 900 !important;
+}
+
+h4, h5, h6 {
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+}
+
+.uk-button {
+    border-radius: 5px !important;
+}
+
+.uk-button-primary {
+    background-color: #9b59b6 !important;
+}
+
+.uk-section-primary {
+    background: #9b59b6 !important;
+}
+
+.first-cover {
+    background-image: url('http://shaun-maluga.com/wp-content/uploads/2012/11/ShaunMaluga_ZNight_001_3600.jpg');
+}
+
+.second-cover {
+    background-image: url('https://c.wallhere.com/photos/cc/f5/chicago_lightpainting_black_history_night_nikon_nissan_automotive-1019462.jpg!d');
+}
+
+.uk-navbar-nav > li > a {
+    font-family: 'Nunito Sans', 'sans-serif' !important;
+    color: #9b59b6 !important;
+}
+
+.crop {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.crop-large {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.primary-section {
+    background-color: #9b59b6;
+}
+
+.navbar-position {
+    position: absolute;
+}
