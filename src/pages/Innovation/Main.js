@@ -28,6 +28,18 @@ export default class Main extends React.Component {
           </nav>
         </div>
 
+        <div className="uk-position-center-left uk-position-medium uk-position-fixed">
+          <ul className="uk-dotnav uk-dotnav-vertical">
+            <li><a href="#adventure" data-uk-scroll>Adventure</a></li>
+            <li><a href="#dc" data-uk-scroll>D.C.</a></li>
+            <li><a href="#georgetown" data-uk-scroll>Georgetown</a></li>
+            <li><a href="#tesla" data-uk-scroll>Tesla</a></li>
+            <li><a href="#whole-foods" data-uk-scroll>Whole Foods</a></li>
+            <li><a href="#lunch" data-uk-scroll>Lunch</a></li>
+            <li><a href="#art-museum" data-uk-scroll>Art Museum</a></li>
+          </ul>
+        </div>
+
         <div id="adventure"className="" data-uk-height-viewport="offset-top: true">
           <div className="uk-container uk-container-large">
             <div data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 150; repeat: true">
