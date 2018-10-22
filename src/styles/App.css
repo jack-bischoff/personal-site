@@ -1,28 +1,30 @@
 /* Base Application Styles */
 
-.index img {
+/* .index img {
   margin: 40px auto;
   border-radius: 4px;
   background: #fff;
   display: block;
-}
+} */
 
-.index .notice {
+/* .index .notice {
   margin: 20px auto;
   padding: 15px 0;
   text-align: center;
-  border: 1px solid #000;
-  border-width: 1px 0;
-}
+} */
 
 body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', 'sans-serif' !important;
 }
 
 .footer-coloring {
-    background-color: #a2d4ab;
+    background-color: white;
 }
 
-.work-coloring {
-  /* background-color: #a2b4ab; */
+.top-margin-30 {
+  margin-top: 30px !important;
 }
+
+.circle {
+    border-radius: 50% !important;
+  }

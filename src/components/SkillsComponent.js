@@ -1,10 +1,4 @@
-'use strict';
-
 import React from 'react';
-
-require('styles//Skills.css');
-const p = require('../images/office-photo.jpg');
-
 export default class SkillsComponent extends React.Component {
   render() {
     return (
@@ -19,18 +13,17 @@ export default class SkillsComponent extends React.Component {
                   </div>
                   <div>
                     <p className="uk-text-break">
-                      My work at Decipher is primarily Front-End Web App development. ReactJS coupled with Redux+Jumpstate for state mangement and uikit3 for CSS is my usual stack. I do write JQuery and can hack together Angular.
-                      Hit me up if you want a React app loaded into an Angular app bootstrapped to another app through JQuery (You guessed it, Government app).
-                      Some of my work related projects include:
-                      <ul>
-                          <li>designing and building a health-check web service for our clients and internal
-                              usage;</li>
-                          <li>designing and building a data aggregation and display app featuring a custom mapping solution;</li>
-                          <li>rapidly resolving mission-critical UI/UX bugs which demand process overhaul;</li>
-                          <li>and finally building data-heavy pages for a government related web app requiring extensive
-                              usage of pre-exisiting APIs.</li>
-                      </ul>
+                      My work at Decipher is primarily Front-End Web App development. I write functional and expressive Javascript (ES7+) leveraging the ReactJS framework.
+                      I'm interested in applying human psychology to design and design to beautiful experiences.
+                      Some achievements at Decipher:
                     </p>
+                    <ul>
+                        <li>operated in a technical leadership role for a multi-million-dollar government contract, where I not only initiated a major code and services refactor, but also successfully migrated the team through a major version release.</li>
+                        <li>Employed ReactJS (ES2017), Jumpstate (Redux), HTML (JSX), and CSS (LESS, SCSS) across multiple data-driven web apps, writing asynchronous data fetching, UI, and state management code often from the ground-up.</li>
+                        <li>Worked with the Client in face-to-face meetings to address future improvements and outstanding bugs as part of User Assurance Tests.</li>
+                        <li>Provided technical counsel during Release Planning meetings and offered pertinent UI/UX ideas to brainstorming sessions.</li>
+                        <li>Debugged critical failures across environments and multiple NPM dependency chains, both public and private, and pushed patches to resolve them.</li>
+                    </ul>
                     </div>
                 </div>
             </div>
@@ -39,5 +32,3 @@ export default class SkillsComponent extends React.Component {
     );
   }
 }
-
-SkillsComponent.displayName = 'SkillsComponent';

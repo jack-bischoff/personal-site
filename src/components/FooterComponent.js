@@ -1,13 +1,9 @@
-'use strict';
-
 import React from 'react';
-
-require('styles//Footer.css');
 
 class FooterComponent extends React.Component {
   render() {
     return (
-        <div id="footer" className="uk-section footer-coloring">
+        <div id="footer" className="uk-section uk-section-secondary">
           <div className="uk-container">
             <div className="uk-flex-center uk-text-center uk-child-width-1-3 uk-grid-large" data-uk-grid>
               <div>
@@ -41,11 +37,5 @@ class FooterComponent extends React.Component {
     );
   }
 }
-
-FooterComponent.displayName = 'FooterComponent';
-
-// Uncomment properties you need
-// FooterComponent.propTypes = {};
-// FooterComponent.defaultProps = {};
 
 export default FooterComponent;

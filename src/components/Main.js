@@ -2,34 +2,29 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import Story from './StoryComponent'
-import Masthead from './MastheadComponent';
-import Heading from './HeadingComponent'
+import Header from './Header'
 import Footer from './FooterComponent';
-import Actions from './ActionsComponent';
 import Bio from './BioComponent';
-import Doit from './BlockquoteComponent';
 import Skills from './SkillsComponent';
+import {DoitQuote, PauseHumansQuote} from './Blockquotes';
 
-class AppComponent extends React.Component {
+const SectionLine = () => (
+  <div className="uk-container"><hr /></div>
+);
+class TopLevelLayout extends React.Component {
   render() {
     return (
       <div className="index">
-        <Heading />
+        <Header />
         <Bio />
-        <Actions />
-        <div className="uk-container">
-          <hr />
-        </div>
+        <PauseHumansQuote />
+        <SectionLine />
         <Skills />
-        <Doit />
+        <DoitQuote />
         <Footer />
       </div>
     );
   }
 }
 
-AppComponent.defaultProps = {
-};
-
-export default AppComponent;
+export default TopLevelLayout;
